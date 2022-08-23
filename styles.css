@@ -84,16 +84,22 @@
     padding-right: 150px;
  }
  
- .section-1-info span {
-    font-weight: 600;
+ .section-1-info2 button {
+   border-radius: 60px;
+   background-color: var(--text);
+   color: white;
+   width: 100px;
+   cursor: pointer;
+   
+
  }
+ 
 .section-1-info2 {
    display: flex;
    justify-content: center;
    align-items: center;
-   background: var(--text);
-   border-radius: 40px;
-   width: 30%;
+   
+   
    
 }
 .section-1-info2 span{
