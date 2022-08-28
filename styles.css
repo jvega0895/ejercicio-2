@@ -146,6 +146,197 @@
  .section-2-info span {
     font-weight: 600;
  }
+ #section-3 {
+   display: flex;
+   flex-direction: column;
+   padding: 20px 0;
+   background: linear-gradient( to top,lightblue,white);
+ }
+ .mision {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+ }
+ .mision h2 {
+   text-decoration: underline;
+   font-size: 40px;
+   font-weight: 800;
+   font-family:'Roboto', sans-serif ;
+ }
+
+ .mision p {
+   font-size: 20px;
+   font-weight: 600;
+
+ }
+  .mision {
+   font-weight: 400;
+  }
+
+  .beneficios {
+   display: flex;
+   justify-content: center;
+   align-items: baseline;
+   gap: 40px;
+   padding-top: 8%;
+  }
+
+  .garantia {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   justify-content: center;
+   align-items: center;
+   width: 30%;
+   cursor: pointer;
+  }
+  .garantia h3{
+   text-decoration: underline;
+   font-size: 35px;
+   font-weight: 400;
+  }
+  .garantia p{
+   font-size: 20px;
+   font-weight: 200;
+  }
+  .garantia span {
+   font-weight: 600;
+  }
+  .garantia:hover{
+   transform: scale(1.1);
+  }
+  .reparaciones {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   justify-content: center;
+   align-items: center;
+   width: 30%;
+   cursor: pointer;
+  }
+  .reparaciones img {
+   width: 60%;
+
+  }
+  .reparaciones h3 {
+   text-decoration: underline;
+   font-size: 35px;
+   font-weight: 400;
+  }
+  .reparaciones p {
+   padding-top: 10px;
+   font-size: 20px;
+   font-weight: 200;
+  }
+  .reparaciones span {
+   font-weight: 600;
+  }
+  .reparaciones:hover {
+   transform: scale(1.1);
+  }
+  .trabajo {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   justify-content: center;
+   align-items: center;
+   width: 30%;
+   cursor: pointer;
+   
+  }
+  .trabajo img {
+   
+   width: 70%;
+   padding-bottom: 40px;
+   
+   
+  }
+
+  .trabajo h3 {
+   text-decoration: underline;
+   font-size: 35px;
+   font-weight: 400;
+  }
+
+  .trabajo p {
+   padding-top: 10px;
+   font-size: 20px;
+   font-weight: 200;
+  }
+
+  .trabajo span {
+   font-weight: 600;
+  }
+  .trabajo:hover{
+   transform: scale(1.1);
+  }
+  footer {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 30px 0px;
+   gap: 30px;
+   background: linear-gradient(to bottom, lightblue, white);
+  }
+  footer h3 {
+   text-decoration: underline;
+  }
+  .redes {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+  }
+
+  .lista1 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   
+   
+   
+  }
+  
+  .lista1 img {
+   width: 20%;
+  }
+  
+
+
+
+  .lista2 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+   cursor: pointer;
+   
+   
+  }
+  .lista2 img {
+   width: 10%;
+   
+  }
+  
+  .lista3 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+   cursor: pointer;
+  }
+  .lista3 img {
+   width: 10%;
+
+  }
+
+
+
+
 
 
 
